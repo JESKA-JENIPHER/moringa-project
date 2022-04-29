@@ -1,16 +1,27 @@
 body{
 
 background-color: white;
-display: flex;
-flex-direction: column;
-align-items: center;
-
+font-family: 'Nunito', serif;
 }
+header{
+    background-color: white;
+    float: right;
+    display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
 .button{
     background-color: #ec4067;
     font-family: 'Nunito', Times, serif;
 
 }
+
+
+
 
 .container {
     color: black;
@@ -24,8 +35,14 @@ align-items: center;
     font-style: bold;
 
 }
-img {
 
-    float: right;
+footer{
+
+    background-color: grey;
+    text-align: center;
+  color: black;
+  padding: 15px;
 }
+
+
     
