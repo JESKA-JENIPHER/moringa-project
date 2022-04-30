@@ -57,6 +57,10 @@ text-align: right;
   margin: 0 0 0 10px;
   /*box-shadow: 0 0 20px 0px #888888;*/
 }
+.content2{
+  margin: 0 0 0 10px;
+  /*box-shadow: 0 0 20px 0px #888888;*/
+}
 
 #one {
   float: right;
@@ -73,6 +77,11 @@ text-align: right;
 #four{
   float: left;
 
+}
+
+#rose{
+
+  float: left;
 }
 img {
   max-height: 200px;
