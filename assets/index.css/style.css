@@ -3,32 +3,50 @@ body{
 background-color: white;
 font-family: 'Nunito', serif;
 }
-header{
-    background-color: white;
-    float: right;
-    display: inline-block;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-
 .button{
     background-color: #ec4067;
     font-family: 'Nunito', Times, serif;
 
 }
-
-
-
-
 .container {
     color: black;
-    padding: 20px;
     background-color: white;
-    
-    
+    display: flex;
+    flex-direction: row;
+  justify-content:space-between;
+  justify-items: right;
+  
+
+}
+
+.Moringa School{
+
+flex: 3px;
+font-size: large;
+}
+
+.Careers{
+
+  width: 100px;
+text-align: right;
+}
+
+.Our projects {
+
+  width: 10px;
+  text-align: right;
+
+}
+.Stories{
+
+  width: 50px;
+  text-align: right;
+
+}
+.button {
+
+  width: 100px;
+  text-align: right;
 
 }
 .visuals {
@@ -37,7 +55,6 @@ header{
 }
 
 footer{
-
     background-color: grey;
     text-align: center;
   color: black;
