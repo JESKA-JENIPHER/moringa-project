@@ -49,11 +49,34 @@ text-align: right;
   text-align: right;
 
 }
-.visuals {
-    font-style: bold;
-
+.content1{
+  margin: 0 0 0 10px;
+  /*box-shadow: 0 0 20px 0px #888888;*/
+}
+.content2{
+  margin: 0 0 0 10px;
+  /*box-shadow: 0 0 20px 0px #888888;*/
 }
 
+#one {
+  float: right;
+
+}
+#two {
+  float: left;
+
+}
+#three{
+  float: right;
+
+}
+#four{
+  float: left;
+
+}
+img {
+  max-height: 200px;
+}
 footer{
     background-color: grey;
     text-align: center;
