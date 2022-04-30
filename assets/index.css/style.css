@@ -3,6 +3,31 @@ body{
 background-color: white;
 font-family: 'Nunito', serif;
 }
+header{
+  margin: 10px;
+  padding: 20px 10%;
+  box-sizing: 0;
+  background-color: white;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+
+}
+.logo{
+  cursor: pointer;
+  margin-right: auto;
+}
+.nav-links{
+  list-style: none;
+}
+.nav-links li{
+  display: inline-block;
+  padding: 0px 20px;
+}
+.nav-links a{
+  transition: 0;
+}
 .button{
     background-color: #ec4067;
     font-family: 'Nunito', Times, serif;
@@ -14,72 +39,41 @@ font-family: 'Nunito', serif;
     display: flex;
     flex-direction: row;
   justify-content:space-between;
-  justify-items: right;
   
-
-}
-
-.Moringa School{
-
-flex: 3px;
-font-size: large;
-}
-
-.Careers{
-
-  width: 100px;
-text-align: right;
-}
-
-.Our projects {
-
-  width: 10px;
-  text-align: right;
-
-}
-.Stories{
-
-  width: 50px;
-  text-align: right;
-
-}
-.button {
-
-  width: 100px;
-  text-align: right;
+  align-items: center;
 
 }
 .content1{
   margin: 0 0 0 10px;
-  /*box-shadow: 0 0 20px 0px #888888;*/
+  
 }
 .content2{
   margin: 0 0 0 10px;
-  /*box-shadow: 0 0 20px 0px #888888;*/
+  
 }
-.content2{
-  margin: 0 0 0 10px;
-  /*box-shadow: 0 0 20px 0px #888888;*/
-}
+
 
 #one {
   float: right;
+  justify-content: end;
 
 }
 #two {
   float: left;
-
+  justify-content: end;
 }
 #three{
   float: right;
+  justify-content: end;
 
 }
 #four{
   float: left;
+  justify-content: end;
 
 }
 
-#Content3{
+.Content3{
 
   margin: 0 0 0 10px;
 }
