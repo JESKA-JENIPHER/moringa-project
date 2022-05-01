@@ -161,10 +161,50 @@ h1{
 }
 #four{
   float: left;
-  /* justify-content: end; */
   height: 350;
   width: 300;
 
+}
+#five{
+  float: left;
+  height: 200;
+  width: 200;
+
+}
+#six{
+  float: left;
+  height:200;
+  width: 200;
+
+}
+#seven{
+  float: left;
+  height: 200;
+  width: 200;
+
+}
+#eight{
+  float: left;
+  height: 200;
+  width: 200;
+
+}
+#nine{
+  float: left;
+  height: 200;
+  width: 200;
+
+}
+.row{
+  float: left;
+  display: inline-block;
+
+}
+
+.column{
+  display: inline-block;
+  
+  
 }
 
 footer{
