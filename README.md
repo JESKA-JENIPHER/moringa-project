@@ -7,7 +7,7 @@
    - [Technology  Used](###Technology Used)
    - [Requirements](#Requirements)
     - [Licence and copyright](###Licence and copyright) 
-     - [Authors Info](#Authors-Info)
+     - [Authors Info] (#Authors-Info)
 
      
 ### Description
