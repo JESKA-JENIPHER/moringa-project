@@ -1,18 +1,18 @@
-/*body*/body{
+*{
+
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+/*body*/
+
+body{
 
 background-color: white;
 font-family: 'Nunito', san-serif;
 }
 
-
-
-header{
-  margin: 0px;
-  box-sizing: 0;
-  padding: 0%;
-  background-color: white;
-  display: flex;
-}
 
 .navbar{
   width: 90%;
@@ -43,76 +43,117 @@ padding-left: 20px;
 padding-right: 20px;
 }
 
-.logo{
+.logo {
   cursor: pointer;
   margin-right: auto;
   font-size: 26px;
+  color: pink;
 }
+.pink{
 
+  color: #ec4067;
+}
+.black{
+  color: black;
+}
 
 .button{
     background-color: #ec4067;
     font-family: 'Nunito', Times, serif;
 
 }
+ 
 .container {
-    color: black;
-    background-color: white;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
   justify-content:space-between;
-  
-  align-items: center;
+width: 1200px;
+   flex-direction: column;
+   flex-wrap: wrap;
+   position: relative;
 
 }
-/*
-.container .info{
+
+.info{
 
   display: flex;
+  position: relative;
+  
+  padding: 15px;
+  margin: 10px;
   
 
 }
-/*
+.images{
 
+  display: flex;
+  max-width: 300px;
+}
 .content1{
-  margin: 0 0 0 10px;
+  margin: 50px;
+  display: inline-block;
+  width: 700px;
   
 }
 .content2{
-  margin: 0 0 0 10px;
+  margin: 50px;
+  display: inline-block;
+  padding-left: 50;
   
 }
+
 .Content3{
 
-  margin: 0 0 0 10px;
+  margin: 50px;
+  display: inline-block;
+  padding-right: 50;
 }
 
-*/
+.par1{
+  float: left;
+
+}
+
+.par2{
+  float: right;
+
+}
+
+.par3{
+  float: left;
+
+}
+.par4{
+  float: right;
+
+}
 
 #one {
   float: right;
   justify-content: end;
+  height: 350;
+  width: 300;
 
 }
 #two {
   float: left;
   justify-content: end;
+  height: 350;
+  width: 300;
 }
 #three{
   float: right;
   justify-content: end;
+  height: 350;
+  width: 300;
 
 }
 #four{
   float: left;
   justify-content: end;
+  height: 350;
+  width: 300;
 
-}
-
-
-
-.images{
-  max-height: 100px;
 }
 
 footer{
